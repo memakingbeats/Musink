@@ -1,0 +1,149 @@
+* {
+   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 992px;
+    
+  
+}
+ @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+
+ body{ 
+    background-color: #161616;
+    margin: auto;
+    width: 95%;
+    
+ 
+   
+ }
+.bg-color1 {
+    background-color: #633925;
+}
+.bg-color2{
+    background-color: #C0C0C0;
+}
+.bg-color3{
+    background-color: #F7F7F6;
+}
+.bg-color4{
+    background-color: #050505;
+}
+
+
+
+.navbar-toggler{
+    filter: invert(100%);    
+ }
+ .nav-link.disabled{
+    filter: invert(100%);
+}
+
+.container-fluid img{
+    filter: invert(100%);
+}
+.nav-link{
+    color: #C0C0C0;
+}
+.nav-link:hover{
+    color:#727272;
+}
+
+
+
+
+
+
+.carousel-control-prev{
+  background-color:  rgba(0, 0, 0, 0.537);
+}
+.carousel-control-next{
+  background-color:  rgba(0, 0, 0, 0.537);
+}
+
+.carousel-item img{
+    background-position: cover;   
+}
+
+
+
+
+.card{
+    margin: 20px auto;   
+}
+.card-body{
+   
+    text-align:center;
+    
+    font-family: 'Fragment Mono', monospace;
+    font-size: smaller;
+    
+    
+}
+
+
+
+span.artist{
+    font-size: 50px;
+    
+}
+
+.col-md-4.col-sm-12.present2{
+    margin: 0;
+    padding: 0;
+}
+
+.col-md-4.col-sm-12.present2 img{
+    width: 100%; 
+    border-radius: 10px;
+   
+}
+
+.col-md-6.col-sm-12.present2 p {
+    color: #d2d2d2;
+    text-align: justify;
+    padding:  0 0 10px;
+    margin-top: 40px;
+    
+}
+
+.row.about{
+    margin: 10px 0 20px 0;
+}
+.col-md-6.col-sm-12.present2 span{
+    color: #d2d2d2;
+    text-align: justify;
+    padding: 0 20px 0 10px;
+    font-size: 30px;
+}
+.col-md-6.col-sm-12.present2 a{
+        font-size: 30px;
+    }
+    
+
+
+.me-4:hover{
+    
+   font-size: 15px; 
+    transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.text-center{
+    font-size: 100%;
+    
+}
+
+
+
+section.mb-4.contact  p{
+    color: #F7F7F6;
+}
+section.mb-4.contact label{
+    filter: invert(100%);
+}
+
+.rodape{
+    text-align: center;
+}
